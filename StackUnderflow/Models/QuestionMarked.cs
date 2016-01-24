@@ -13,7 +13,7 @@ namespace StackUnderflow.Models
 
         [Display(Name = "Marked")]
         [Required]
-        public Mark Marked { get; set; }
+        public Mark? Marked { get; set; }
 
         [Display(Name = "Reason")]
         [DataType(DataType.MultilineText)]
