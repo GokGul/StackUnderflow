@@ -11,7 +11,7 @@ namespace StackUnderflow.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Display(Name = "ID"]
+        [Display(Name = "ID")]
         public int ID { get; set; }
 
         [Display(Name = "Answer")]

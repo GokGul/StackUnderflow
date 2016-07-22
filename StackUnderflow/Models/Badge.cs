@@ -40,5 +40,4 @@ namespace StackUnderflow.Models
         [Display(Name = "Users")]
         public virtual ICollection<User> Users { get; set; }
     }
-    }
 }
